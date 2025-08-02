@@ -1,46 +1,43 @@
 import projet1 from "../assets/projet1.png"
-import projet2 from "../assets/projet2.png"
 import projet3 from "../assets/projet3.png"
-import projet4 from "../assets/projet4.png"
+export const HERO_CONTENT = "Développeuse web junior spécialisée dans la stack MERN, je suis passionnée par la création de solutions web modernes et efficaces. En consolidant mes compétences en développement front-end et back-end, j’aborde chaque projet avec curiosité, rigueur et le souci d’un code propre. Je m’investis pleinement dans l’apprentissage des technologies actuelles afin de proposer des applications performantes et adaptées aux besoins réels.";
 
-export const HERO_CONTENT = "Aspiring and dedicated beginner in full-stack development, with a strong drive to create impactful web solutions. As I build my technical foundation in both front-end and back-end development, I approach each project with curiosity and a focus on writing clean, efficient code. Constantly exploring modern practices and tools, I am committed to learning, growing, and pushing the boundaries of what I can achieve in web and mobile development.";
-export const ABOUT_CONTENT = "With a License in Applied Computer Science focused on management, I am building expertise in both front-end and back-end development. I have explored multiple programming languages, and my dedication to self-learning and problem-solving fuels my journey in web development. With a strong foundation in mobile development, I am constantly discovering modern technologies to enhance my skills and create impactful digital experiences.";
+export const ABOUT_CONTENT = "Titulaire d’une licence en informatique appliquée à la gestion, je me spécialise dans le développement web full-stack avec la stack MERN. Lors de mon Projet de Fin d’Études, j’ai travaillé pour la première fois avec cette stack, qui m’a particulièrement attirée par sa polyvalence et son efficacité. Mon parcours est guidé par l’autoformation, l’exploration de technologies variées et une forte capacité à résoudre des problèmes. Je suis engagée dans une démarche de progression continue, avec pour objectif de concevoir des interfaces web fonctionnelles, esthétiques et impactantes.";
+
 export const EXPERIENCES = [
     {
         year: 2024,
-        role: 'Intern Web Development',
+        role: 'Stagiaire en développement web',
         company: 'Amen Bank',
-        description: 'Developed a banking application that involved designing the user interface and implementing a comprehensive dashboard. The project focused on creating an intuitive and user-friendly experience while ensuring seamless navigation and accessibility of banking features.',
-        technologies: ['React Js', 'Express Js', 'Node Js', 'MongoDB', "Tailwindcss"]
+        description: 'Développement d’une application bancaire incluant la conception de l’interface utilisateur et la réalisation d’un tableau de bord complet. Le projet visait à créer une expérience intuitive et facile d’utilisation, tout en assurant une navigation fluide et un accès optimal aux fonctionnalités bancaires.',
+        technologies: ['React Js', 'Express Js', 'Node Js', 'MongoDB', 'Tailwindcss']
     },
 ];
 
 export const PROJECTS = [
     {
-        title: "E-commerce Website",
+        url: "https://stylike-frontend.onrender.com/",
+        title: "Stylike – Site E-commerce de vêtements (MERN Stack)",
         image: projet1,
-        description: "Outfitty is an online store dedicated to women's fashion, offering a curated selection of outfits designed to meet diverse styles and occasions. Customers can browse collections, view detailed product information, and enjoy a seamless shopping experience tailored to women’s fashion needs.",
-        technologies: ["React", "Node JS", "MongoDB", "Express JS", "Tailwindcss"]
+        description:
+            "Stylike est un site e-commerce full-stack développé avec la stack MERN , dédié à la vente de vêtements. Il propose une interface client fluide avec gestion de panier, commande, et paiement (Stripe ou paiement à la livraison), ainsi qu’un tableau de bord administrateur sécurisé permettant de gérer les produits et les commandes. Le projet intègre une authentification via JWT, l’hébergement sur Render, le stockage d’images via Cloudinary, et la surveillance avec UptimeRobot.",
+        technologies: ["React (Vite)", "Node.js", "MongoDB Atlas", "Express.js", "TailwindCSS", "Axios", "Stripe", "Cloudinary", "JWT"]
     },
     {
-        title: "Market & Dine Storefront",
-        image: projet2,
-        description: "This app is a storefront for markets and restaurants, letting users browse products, view details, and place orders effortlessly, whether for market items or restaurant meals.",
-        technologies: ["Flutter", "Dart",]
-    },
-    {
+        url: "https://webgenius-beta.vercel.app/",
         title: "Web Genius Solutions",
         image: projet3,
-        description: "A website offering professional web and mobile development services, delivering modern, custom-built solutions that meet unique business needs.",
-        technologies: ["React", "Node JS", "MongoDB", "Express JS", "Tailwindcss"]
-    },
-    {
-        title: "Aura Cosmetics Store",
-        image: projet4,
-        description: "Aura is a cosmetics e-commerce site where customers can browse products, manage accounts, and shop with ease, while admins handle inventory, orders, and customer accounts through a comprehensive management dashboard",
-        technologies: ["PHP", "MySQL", "Bootstrap",]
-    },
+        description:
+            "Web Genius Solutions est un site professionnel proposant des services de développement web et mobile sur mesure, " +
+            "avec un fort accent sur le front-end pour offrir des interfaces modernes, élégantes et entièrement responsive. " +
+            "Ce projet met en avant des solutions personnalisées adaptées aux besoins spécifiques des entreprises, " +
+            "en assurant une expérience utilisateur optimisée sur tous les supports (ordinateurs, tablettes, mobiles). " +
+            "La partie backend est présente mais allégée, le focus principal restant sur la qualité et la réactivité du front-end.",
+        technologies: ["React", "Node.js", "MongoDB", "Express.js", "TailwindCSS"]
+    }
 ]
+
+
 export const CONTACT = {
     address: "8024 Nabeul Tunisia",
     PhoneNo: "+216 54 121 578",

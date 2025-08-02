@@ -8,9 +8,8 @@ const Hero = () => {
                     <div className="flex flex-col items-center lg:items-start">
                         <h1 className=" pb-4 font-thin text-4xl tracking-tight  lg:text-6xl">Yessmin Bouchehed </h1>
                         <span className="bg-gradient-to-r from-pink-300 via-pink-500 to-pink-800 bg-clip-text text-3xl text-transparent tracking-tight  ">
-                            Full Stack Developer
-                        </span>
-                        <p className="my-2 max-w-xl py-4 font-mono tracking-tighter lg:text-lg ">{HERO_CONTENT}</p>
+                            Développeuse Full Stack                        </span>
+                        <p className="my-2 max-w-xl py-4 font-mono tracking-tighter  lg:text-lg ">{HERO_CONTENT}</p>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
@@ -21,7 +20,7 @@ const Hero = () => {
                             className="w-full max-w-md h-auto object-contain rounded"
                         />
                     </div>
-                    
+
                 </div>
             </div>
         </div>
